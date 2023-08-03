@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    opacity: 1;
+    z-index: 1;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+    background: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(-45deg , #0d6eff, #cc00cc);
+}
+
+.coding1::after{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 25%;
+    content: "C";
+    color: #fff;
+    font-size:100px;
+    animation: mymove 3s linear;
+}
+
+.coding2::after{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 35%;
+    content: "o";
+    color: #fff;
+    font-size:100px;
+    animation: mymove 3s linear;
+    animation-delay: 0.1s;
+}
+.coding3::after{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 45%;
+    content: "d";
+    color: #fff;
+    font-size:100px;
+    animation: mymove 3s linear;
+    animation-delay: 0.2s;
+}
+.coding4::after{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 55%;
+    content: "i";
+    color: #fff;
+    font-size:100px;
+    animation: mymove 3s linear;
+    animation-delay: 0.3s;
+}
+.coding5::after{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 65%;
+    content: "n";
+    color: #fff;
+    font-size:100px;
+    animation: mymove 3s linear;
+    animation-delay: 0.4s;
+}
+.coding6::after{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 75%;
+    content: "g";
+    color: #fff;
+    font-size:100px;
+    animation: mymove 3s linear;
+    animation-delay: 0.5s;
+}
+
+@keyframes mymove {
+    0%{content: "#";}
+    2%{content: "4";}
+    4%{content: "e";}
+    5%{content: "F";}
+    7%{content: "K";}
+    9%{content: "O";}
+    12%{content: "T";}
+    14%{content: "g";}
+    18%{content: "o";}
+    21%{content: "4";}
+    25%{content: "/";}
+    28%{content: "w";}
+    32%{content: "2";}
+    36%{content: "7";}
+    40%{content: "9";}
+    44%{content: "u";}
+    48%{content: "L";}
+    53%{content: "H";}
+    59%{content: "x";}
+    65%{content: "s";}
+    69%{content: "w";}
+    75%{content: "P";}
+    79%{content: "c";}
+    84%{content: "q";}
+    89%{content: "x";}
+    90%{content: "w";}
+    92%{content: "o";}
+    94%{content: "c";}
+    96%{content: "s";}
+    99%{content: "r";}
+    100%{content: "#";}
+}

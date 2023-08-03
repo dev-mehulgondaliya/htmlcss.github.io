@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  background: royalblue;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bounce span {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  animation: bounce 0.3s infinite alternate;
+  font-family: "Titan One", cursive;
+  font-size: 10vw;
+  white-space: nowrap;
+  color: crimson;
+  text-shadow: 0 1px 0px #ccc, 0 2px 0px #ccc, 0 3px 0px #ccc, 0 5px 0px #ccc, 0 5px 0px #ccc, 0 6px 0px transparent, 0 7px 0px transparent, 0 8px 0px transparent, 0 9px 0px transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+.bounce span:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.bounce span:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.bounce span:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.bounce span:nth-child(5) {
+  animation-delay: 0.4s;
+}
+.bounce span:nth-child(6) {
+  animation-delay: 0.5s;
+}
+.bounce span:nth-child(7) {
+  animation-delay: 0.6s;
+}
+.bounce span:nth-child(8) {
+  animation-delay: 0.7s;
+}
+.bounce span:nth-child(9) {
+  animation-delay: 0.8s;
+}
+.bounce span:nth-child(10) {
+  animation-delay: 0.9s;
+}
+@keyframes bounce {
+  100% {
+    top: -20px;
+    text-shadow: 0 1px 0px #ccc, 0 2px 0px #ccc, 0 3px 0px #ccc, 0 5px 0px #ccc, 0 5px 0px #ccc, 0 6px 0px #ccc, 0 7px 0px #ccc, 0 8px 0px #ccc, 0 9px 0px #ccc, 0 50px 25px rgba(0, 0, 0, 0.2);
+  }
+}/*# sourceMappingURL=style.css.map */
